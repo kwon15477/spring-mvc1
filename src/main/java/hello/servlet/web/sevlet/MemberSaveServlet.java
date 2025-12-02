@@ -1,7 +1,7 @@
 package hello.servlet.web.sevlet;
 
-import hello.servlet.member.Member;
-import hello.servlet.member.MemberRepository;
+import hello.servlet.domain.member.Member;
+import hello.servlet.domain.member.MemberRepository;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
@@ -42,6 +42,6 @@ public class MemberSaveServlet extends HttpServlet {
                 "<a href=\"/index.html\">메인</a>\n" +
                 "</body>\n" +
                 "</html>");
-        
+
     }
 }
